@@ -37,8 +37,8 @@ Installation from source
 .. code-block:: bash
 
     $ git clone https://github.com/cocodevienne/nox
-    $ cd source/enigma
-    $ python setup.py install
+    $ cd nox/source
+    $ python setup.py install
     
 
 Building
