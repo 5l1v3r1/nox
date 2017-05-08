@@ -5,17 +5,17 @@ from os import path
 # Install script for *NIX systems and Windows
 # licensed under the DVF GPL
 setup(
-    name='enigma',
+    name='nox',
     version='2017.0',
-    description='file search engine',
-    long_description='file search engine',
-    url='http://github.com/cocodevienne/enigma',
+    description='pentesting reloaded',
+    long_description='pentesting reloaded',
+    url='http://github.com/cocodevienne/nox',
     author='cocodevienne',
     author_email='cocodevienneoffice@gmail.com',
     license='GPLv3',
     entry_points={
         'console_scripts':[
-            'enigma = enigma.__main__:main'
+            'nox = nox.__main__:main'
         ]
     },
     classifiers=[
@@ -34,7 +34,7 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
     ],
-    keywords='search-engine',
+    keywords='pentesting',
     packages=find_packages(),
-    install_requires=['pip', 'colorama'],
+    install_requires=['pip', 'requests'],
 )
